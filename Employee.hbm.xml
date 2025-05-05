@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<hibernate-mapping>
+	<class name="in.abc.Model.Employee" table="empTab">
+	  <id name="empId" type="java.lang.Integer" column="eid">
+	  	<generator class="increment"/>
+	  </id>
+      <property name="empName" type="java.lang.String" length="20" column="ename" />
+	  <property name="empSal" type="java.lang.Double" column="esal" />
+	 </class>
+</hibernate-mapping>
+     
